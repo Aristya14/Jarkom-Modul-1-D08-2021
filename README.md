@@ -10,6 +10,7 @@ Untuk mengetahui server yang digunakan dalam web ichimarumaru.txt ialah dengan m
 ## Soal No 2
 Temukan paket dari web-web yang menggunakan basic authentication method!
 ![2](./Gambar/2.png)
+
 ## Soal No 3
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 
@@ -21,6 +22,7 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 
 ## Soal No 6
 Cari username dan password ketika melakukan login ke FTP Server!
+![6](./Gambar/6.png)
 
 ## Soal No 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
@@ -44,15 +46,20 @@ Dengan mencari di display filter ``ftp-data contains "bukanapaapa"`` maka didapa
 
 ## Soal No 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+![11](./Gambar/11.png)
 
 ## Soal No12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+![12](./Gambar/12.png)
 
 ## Soal No 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+![13](./Gambar/13.png)
 
 ## Soal No 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+![14](./Gambar/14.png)
 
 ## Soal No 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+![15](./Gambar/15.png)
