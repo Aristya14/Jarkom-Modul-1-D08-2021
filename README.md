@@ -9,6 +9,9 @@ Untuk mengetahui server yang digunakan dalam web ichimarumaru.txt ialah dengan m
 
 ## Soal No 2
 Temukan paket dari web-web yang menggunakan basic authentication method!
+
+Untuk mengetahui paket dari web menggunakan authentication method adalah melakukan filter ``http.authbasic``
+
 ![2](./Gambar/2.png)
 
 ## Soal No 3
@@ -22,6 +25,9 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 
 ## Soal No 6
 Cari username dan password ketika melakukan login ke FTP Server!
+
+Untuk mengetahui username dan password ketika login di ftp server ialah menggunkan filter ``ftp contains USER or ftp contains PASS``
+
 ![6](./Gambar/6.png)
 
 ## Soal No 7
@@ -46,20 +52,35 @@ Dengan mencari di display filter ``ftp-data contains "bukanapaapa"`` maka didapa
 
 ## Soal No 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+
+Untuk mengambil paket yang berasal dari port 80 dengan cara memfilter  menggunakan ``src port 80``
+
 ![11](./Gambar/11.png)
 
 ## Soal No12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+Untuk mengambil paket yang mengandung port 21 dengan cara memfilter menggunakan ``port 21``
+
 ![12](./Gambar/12.png)
 
 ## Soal No 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Untuk menampil paket yang menuju pada port 443 dengan cara memfilter menggunakan ``dst port 443``
+
 ![13](./Gambar/13.png)
 
 ## Soal No 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+Untuk mengambil paket yang tujuannya ke kemenag.go.id dengan mencari ip dari link tersebut dengan menggunakan terminal ``ping kemenag.go.id``. Setelah mendapatkan ip dari lik tersebut, dapat memfilter di dalam wireshark ``ip.dst == 103.7.13.247``
+
 ![14](./Gambar/14.png)
 
 ## Soal No 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Untuk mengambil paket yang berasal dari ip kita adalah dengan mengetahui terlebih dahulu ip kita, kemudia melakukan filter di wireshark dengan cara ``ip.src == 192.168.100.226``
+
 ![15](./Gambar/15.png)
