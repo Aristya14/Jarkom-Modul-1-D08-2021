@@ -9,7 +9,7 @@ Untuk mengetahui server yang digunakan dalam web ichimarumaru.txt ialah dengan m
 
 ## Soal No 2
 Temukan paket dari web-web yang menggunakan basic authentication method!
-
+![2](./Gambar/2.png)
 ## Soal No 3
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 
