@@ -1,5 +1,11 @@
 # Jarkom-Modul-1-D08-2021
 
+Kelompok D-08
+	5111940000188	Riki Wahyu Nur Dianto
+  5111940000199	Aprilia Annisa Suryo
+  5111940000233	Aristya Vika Wijaya
+
+
 ## Soal No 1
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
 
