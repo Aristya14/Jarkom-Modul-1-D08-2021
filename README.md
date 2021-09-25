@@ -37,8 +37,9 @@ Untuk menemukan paket mysql yang berisikan perintah query select digunakan filte
 ## Soal No 5
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!  
 untuk mendapatkan username dan password adalah dengan mencari query insert pada paket dengan menggunakan filter ``mysql.query contains INSERT``  
-![image](https://user-images.githubusercontent.com/73290753/134759693-5c71b4d3-8e8c-45eb-a45b-1b0b1adfc6f2.png)
+![image](https://user-images.githubusercontent.com/73290753/134759693-5c71b4d3-8e8c-45eb-a45b-1b0b1adfc6f2.png)  
 
+Sehingga didapatkan
 Username: ``akakanomi``  
 Pass: ``pemisah4lautan``  
 
