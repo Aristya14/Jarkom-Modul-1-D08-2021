@@ -38,6 +38,10 @@ Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
 ## Soal No 9
 Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+Dari file 8-10.pcap selanjutnya mneggunakan ``ftp-data`` untuk mencari `secret.zip`. Lalu memilih salah satu dari `STOR ZIP`, setelah itu kita bisa menyimpannya melalui analyze, kemudian follow lalu pilih TCP Stream,kemudian memilih mengubah dari ASCII ke raw, dan menyimpannya engan nama secret.zip. Jika kita buka maka didalamnya ada file pdf bernama `Wanted`. untuk membukanya, kita membutuhkan password yang di temukan pada soal no 10.
+![alt text](https://github.com/Aristya14/Jarkom-Modul-1-D08-2021/blob/main/Gambar/9%20mencari%20secert%20zip.png)
+![alt text](https://github.com/Aristya14/Jarkom-Modul-1-D08-2021/blob/main/Gambar/9%20isi%20secret%20zip.png)
+![alt text](https://github.com/Aristya14/Jarkom-Modul-1-D08-2021/blob/main/Gambar/9%20wanted.png)
 
 ## Soal No 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
