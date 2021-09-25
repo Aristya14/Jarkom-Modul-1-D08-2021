@@ -56,8 +56,21 @@ Untuk mengetahui username dan password ketika login di ftp server ialah menggunk
 ## Soal No 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 
+Dengan menggunakan hint yang diberikan maka dapat dilakukan filtering dengan menggunakan filter ``ftp-data contains "Real.pdf`` dan akan menampilkan hasil bahwa ``Real.pdf`` terdapat di dalam file ``201.zip``  
+
+![image](https://user-images.githubusercontent.com/73290753/134759981-ed01972e-c8c9-4032-bc21-8373a9148417.png)
+
+Klik kanan lalu klik follow kemudian klik TCP Stream. Kemudian Ubah Show data as menjadi Raw dan save as 201.zip.
+![image](https://user-images.githubusercontent.com/73290753/134760056-470638e5-f697-4bde-8c5c-3c4f62e74ec2.png)
+![image](https://user-images.githubusercontent.com/73290753/134760059-dbb11166-2729-41e7-84a6-9f6680faf312.png)
+![image](https://user-images.githubusercontent.com/73290753/134760068-1086aba3-1300-47b7-899d-b4b427e85cee.png)
+
+
 ## Soal No 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+Untuk mendapatkan paket yang menunjukan pengambilan file dari FTP dapat menggunakan filter ``ftp.request.command == RETR``
+![image](https://user-images.githubusercontent.com/73290753/134760116-5140af6d-34f2-4304-abc8-28728c00c965.png)
+
 
 ## Soal No 9
 Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
