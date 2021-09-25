@@ -17,6 +17,17 @@ Untuk mengetahui paket dari web menggunakan basic authentication method adalah m
 ## Soal No 3
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 
+Untuk mendapatkan paket yang mengandung website ``basic.ichimarumaru.tech`` dapat digunakan filter ``http.host==basic.ichimarumaru.tech``  
+Dibagian hypertext transfer terdapat authorization. Dibagian ini terdapat credentials yang berisi username dan password.  
+Username: kuncimenujulautan  
+Pass: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN  
+![image](https://user-images.githubusercontent.com/73290753/134759237-9561c242-febf-4e4a-b3fd-97ce359eb826.png)
+
+Setelah username dan password sudah didapatkan, Login di website ``basic.ichimarumaru.tech`` dan melakukan perintah yang ditampilkan yaitu sebutkan urutan konfigurasi pengkabelan T568A  
+![image](https://user-images.githubusercontent.com/73290753/134759374-5c054117-18b0-4d44-8a71-032c3cb05c43.png)
+
+
+
 ## Soal No 4
 Temukan paket mysql yang mengandung perintah query select!
 
