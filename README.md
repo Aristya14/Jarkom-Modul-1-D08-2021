@@ -19,8 +19,8 @@ Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan
 
 Untuk mendapatkan paket yang mengandung website ``basic.ichimarumaru.tech`` dapat digunakan filter ``http.host==basic.ichimarumaru.tech``  
 Dibagian hypertext transfer terdapat authorization. Dibagian ini terdapat credentials yang berisi username dan password.  
-Username: kuncimenujulautan  
-Pass: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN  
+Username: ``kuncimenujulautan``  
+Pass: ``tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN``  
 ![image](https://user-images.githubusercontent.com/73290753/134759237-9561c242-febf-4e4a-b3fd-97ce359eb826.png)
 
 Setelah username dan password sudah didapatkan, Login di website ``basic.ichimarumaru.tech`` dan melakukan perintah yang ditampilkan yaitu sebutkan urutan konfigurasi pengkabelan T568A  
@@ -30,9 +30,21 @@ Setelah username dan password sudah didapatkan, Login di website ``basic.ichimar
 
 ## Soal No 4
 Temukan paket mysql yang mengandung perintah query select!
+Untuk menemukan paket mysql yang berisikan perintah query select digunakan filter ``mysql.query contains select``
+![image](https://user-images.githubusercontent.com/73290753/134759524-4668dadb-5f4f-428f-8f18-c40005c722a3.png)
+
 
 ## Soal No 5
-Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!  
+untuk mendapatkan username dan password adalah dengan mencari query insert pada paket dengan menggunakan filter ``mysql.query contains INSERT``  
+![image](https://user-images.githubusercontent.com/73290753/134759693-5c71b4d3-8e8c-45eb-a45b-1b0b1adfc6f2.png)
+
+Username: ``akakanomi``  
+Pass: ``pemisah4lautan``  
+
+Setelah username dan password sudah didapatkan, Login di ``portal.ichimarumaru.tech`` dan melakukan perintah yang ditampilkan yaitu sebutkan urutan konfigurasi pengkabelan T568B 
+![image](https://user-images.githubusercontent.com/73290753/134759776-53c2c1b2-e130-4dc8-bfa3-95c5d6a5b50d.png)
+
 
 ## Soal No 6
 Cari username dan password ketika melakukan login ke FTP Server!
